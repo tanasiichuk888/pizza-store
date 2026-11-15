@@ -1,0 +1,54 @@
+:root {
+  --ink: #0f2a2e;
+  --ink-soft: #3a555a;
+  --mist: #d9e6e3;
+  --paper: #eef5f2;
+  --foam: #1f7a6c;
+  --lime: #c8f26a;
+  --lime-deep: #a8d44a;
+  --warn: #e8a45a;
+  --danger: #d45d4a;
+  --panel: rgba(255, 255, 255, 0.78);
+  --panel-solid: #f7fbf9;
+  --line: rgba(15, 42, 46, 0.1);
+  --shadow-soft: 0 24px 60px rgba(15, 42, 46, 0.12);
+  --font-display: 'Bricolage Grotesque', Georgia, serif;
+  --font-body: 'Figtree', system-ui, sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+  font-family: var(--font-body);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  min-width: 320px;
+}
+
+button {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
